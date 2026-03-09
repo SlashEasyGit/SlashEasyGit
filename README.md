@@ -1,4 +1,4 @@
-<!-- Professional Header -->
+<!-- ================= HEADER ================= -->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=SlashEasy&fontSize=60&fontColor=ffffff&desc=Digital%20Product%20Development%20Studio&descAlignY=65&animation=fadeIn"/>
 
@@ -10,36 +10,52 @@
 
 **No-Code • Full Stack • Mobile Apps • Cloud • AI**
 
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Full+Stack+Web+Development;React+%7C+Next.js+%7C+Node.js+%7C+Laravel;Mobile+Apps+with+React+Native+%26+Flutter;Cloud+%26+AI+Powered+Applications;Building+Scalable+Digital+Products"/>
+</p>
+
 </div>
 
 ---
 
-# 💡 What We Do
+# 💡 About SlashEasy
 
-SlashEasy helps **startups, SMEs, and enterprises** build modern digital products.
+**SlashEasy** is a **digital product development studio** helping startups and businesses turn ideas into scalable digital platforms.
 
-We specialize in transforming **ideas into scalable applications**.
+We specialize in building:
 
-### Our Core Services
+* SaaS products
+* Custom web applications
+* Mobile apps
+* Automation systems
+* Cloud-native platforms
 
-🚀 MVP Development
-⚙️ Full-Stack Web Applications
-📱 Mobile App Development
-🎨 UI/UX Design
-☁️ Cloud Deployment
-🤖 Automation & AI Integration
+Our focus is delivering **clean architecture, scalable systems, and modern user experiences.**
 
 ---
 
-# 🛠️ Technology Expertise
+# 🚀 Core Services
 
-## Frontend Development
+| Service                    | Description                             |
+| -------------------------- | --------------------------------------- |
+| 🚀 MVP Development         | Rapid product development for startups  |
+| ⚙️ Full-Stack Applications | End-to-end scalable web platforms       |
+| 📱 Mobile Apps             | Cross-platform iOS & Android apps       |
+| 🎨 UI/UX Design            | Product-focused interface design        |
+| ☁️ Cloud Infrastructure    | Scalable deployment architecture        |
+| 🤖 Automation & AI         | AI integrations and workflow automation |
+
+---
+
+# 🛠 Technology Expertise
+
+## 🖥 Frontend Development
 
 <p>
 <img src="https://skillicons.dev/icons?i=react,nextjs,angular,vue,html,css,js,ts,tailwind,bootstrap"/>
 </p>
 
-Technologies:
+Technologies
 
 * React.js
 * Next.js
@@ -47,10 +63,11 @@ Technologies:
 * Vue.js
 * TypeScript
 * JavaScript
+* HTML5 / CSS3
 * Tailwind CSS
 * Bootstrap
 
-Capabilities:
+Capabilities
 
 * SaaS dashboards
 * Admin panels
@@ -59,13 +76,13 @@ Capabilities:
 
 ---
 
-## Backend Development
+## ⚙️ Backend Development
 
 <p>
 <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,php,python,django,flask,java,spring"/>
 </p>
 
-Technologies:
+Technologies
 
 * Node.js
 * Express.js
@@ -78,23 +95,23 @@ Technologies:
 * Java
 * Spring Boot
 
-Capabilities:
+Capabilities
 
 * REST APIs
-* Microservices
-* SaaS architecture
-* Authentication systems
+* Microservices architecture
+* SaaS backend systems
+* Authentication & authorization
 * Payment integrations
 
 ---
 
-## Mobile Development
+## 📱 Mobile Development
 
 <p>
 <img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift"/>
 </p>
 
-Technologies:
+Technologies
 
 * React Native
 * Flutter
@@ -102,21 +119,21 @@ Technologies:
 * Swift
 * Expo
 
-Capabilities:
+Capabilities
 
 * Cross-platform apps
 * Real-time mobile apps
-* App Store deployments
+* App Store & Play Store deployments
 
 ---
 
-## Databases
+## 🗄 Databases
 
 <p>
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase"/>
 </p>
 
-Technologies:
+Technologies
 
 * MySQL
 * PostgreSQL
@@ -127,13 +144,13 @@ Technologies:
 
 ---
 
-## Cloud & DevOps
+## ☁️ Cloud & DevOps
 
 <p>
 <img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,nginx,linux"/>
 </p>
 
-Technologies:
+Technologies
 
 * AWS
 * Google Cloud
@@ -141,11 +158,12 @@ Technologies:
 * Docker
 * Kubernetes
 * Nginx
-* CI/CD Pipelines
+* CI/CD pipelines
+* Linux servers
 
 ---
 
-## No-Code Platforms
+## ⚡ No-Code Platforms
 
 * Bubble.io
 * Webflow
@@ -153,26 +171,28 @@ Technologies:
 * Make (Integromat)
 * Airtable
 
-Used for:
+Used for
 
 * Rapid MVP development
 * Automation systems
 * Internal tools
+* SaaS prototypes
 
 ---
 
-## Design & Product
+## 🎨 Design & Product
 
 <p>
 <img src="https://skillicons.dev/icons?i=figma"/>
 </p>
 
-Tools:
+Tools
 
 * Figma
 * UI/UX Design
 * Design Systems
 * Interactive Prototypes
+* Product Wireframes
 
 ---
 
@@ -212,6 +232,24 @@ Tools:
 
 ---
 
+# 🔥 GitHub Streak
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=slasheasy&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+# 🐍 Contribution Snake
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/slasheasy/slasheasy/output/github-contribution-grid-snake.svg"/>
+</p>
+
+*(Requires GitHub Action workflow to generate snake animation.)*
+
+---
+
 # 🤝 Work With Us
 
 If you need help with:
@@ -237,5 +275,11 @@ If you need help with:
 🐦 https://twitter.com/slasheasy
 
 ---
+
+<div align="center">
+
+⭐ **Built with passion by SlashEasy**
+
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer"/>
