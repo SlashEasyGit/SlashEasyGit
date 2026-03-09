@@ -1,28 +1,28 @@
+<!-- ===== HEADER BANNER ===== -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:6366F1,100:818CF8&height=260&section=header&text=SlashEasy&fontSize=78&fontColor=ffffff&fontAlignY=42&desc=Digital%20Product%20Development%20Studio&descSize=18&descAlignY=63&descAlign=50&animation=fadeIn&fontAlign=50" />
+
 <div align="center">
 
-<!-- HEADER BANNER — Brand indigo gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:6366F1,100:818CF8&height=240&section=header&text=SlashEasy&fontSize=72&fontColor=ffffff&fontAlignY=42&desc=Digital%20Product%20Development%20Studio&descSize=17&descAlignY=62&descAlign=50&animation=fadeIn&fontAlign=50"/>
-
-<!-- ANIMATED TAGLINE -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=17&duration=2800&pause=1200&color=4F46E5&background=00000000&center=true&vCenter=true&width=680&height=40&lines=Transform+Your+Ideas+With+Expert+Developers.;Full+Stack+%E2%80%A2+Mobile+%E2%80%A2+Cloud+%E2%80%A2+AI+%E2%80%A2+No-Code;Crafting+Web%2C+MVP+%26+Mobile+Apps+at+Speed." alt="Typing SVG" />
+<!-- ANIMATED TAGLINE — white text, always visible on any background -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=18&duration=2800&pause=1200&color=FFFFFF&background=4F46E5&center=true&vCenter=true&width=720&height=46&lines=Transform+Your+Ideas+With+Expert+Developers.;Full+Stack+%E2%80%A2+Mobile+%E2%80%A2+Cloud+%E2%80%A2+AI+%E2%80%A2+No-Code;Crafting+Web%2C+MVP+%26+Mobile+Apps+at+Speed." alt="SlashEasy" />
 
 <br/><br/>
 
-<!-- SOCIAL BADGES -->
-[![Website](https://img.shields.io/badge/slasheasy.com-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://slasheasy.com)
-[![Email](https://img.shields.io/badge/hello@slasheasy.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@slasheasy.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/slasheasy)
-[![Twitter / X](https://img.shields.io/badge/Twitter-6366F1?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/slasheasy)
+<!-- SOCIAL BADGES — solid fills, always readable -->
+[![Website](https://img.shields.io/badge/🌐_slasheasy.com-4F46E5?style=for-the-badge&logoColor=white)](https://slasheasy.com)
+[![Email](https://img.shields.io/badge/📧_hello@slasheasy.com-6366F1?style=for-the-badge&logoColor=white)](mailto:hello@slasheasy.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/slasheasy)
+[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/slasheasy)
 
 <br/>
 
-<!-- QUICK TAGS -->
-![MVP](https://img.shields.io/badge/MVP%20Development-EEF2FF?style=flat-square&color=4F46E5)
-![Full-Stack](https://img.shields.io/badge/Full--Stack%20Apps-EEF2FF?style=flat-square&color=4F46E5)
-![Mobile](https://img.shields.io/badge/Mobile%20Apps-EEF2FF?style=flat-square&color=6366F1)
-![Cloud](https://img.shields.io/badge/Cloud%20%26%20DevOps-EEF2FF?style=flat-square&color=4F46E5)
-![AI](https://img.shields.io/badge/AI%20Integration-EEF2FF?style=flat-square&color=6366F1)
-![No-Code](https://img.shields.io/badge/No--Code-EEF2FF?style=flat-square&color=4F46E5)
+<!-- SERVICE TAGS — white text on indigo, visible everywhere -->
+![](https://img.shields.io/badge/🚀_MVP_Development-4F46E5?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/⚙️_Full--Stack_Apps-6366F1?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/📱_Mobile_Apps-4F46E5?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/☁️_Cloud_&_DevOps-6366F1?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/🤖_AI_Integration-4F46E5?style=flat-square&logoColor=white)
+![](https://img.shields.io/badge/⚡_No--Code-6366F1?style=flat-square&logoColor=white)
 
 </div>
 
@@ -36,14 +36,14 @@
 
 We architect clean systems, design modern interfaces, and ship products that scale from day one.
 
-**What we build:**
-
-- 🚀 **SaaS Platforms** — multi-tenant, subscription-ready, scalable dashboards
-- 🛍️ **Marketplaces** — multi-vendor, e-commerce, booking & subscription platforms
-- 🏢 **Business Systems** — CRM, HR, LMS, ERP, and inventory management
-- 📱 **Mobile Apps** — iOS & Android, React Native & Flutter
-- 🤖 **AI-Powered Apps** — LLM integrations, intelligent automation pipelines
-- 🎨 **UI/UX Design** — Figma systems, prototypes, and design-to-production
+| | What We Build |
+|---|---|
+| 🚀 | **SaaS Platforms** — multi-tenant, subscription-ready dashboards |
+| 🛍️ | **Marketplaces** — multi-vendor, e-commerce, booking & subscription |
+| 🏢 | **Business Systems** — CRM, HR, LMS, ERP, inventory management |
+| 📱 | **Mobile Apps** — iOS & Android with React Native & Flutter |
+| 🤖 | **AI-Powered Apps** — LLM integrations & automation pipelines |
+| 🎨 | **UI/UX Design** — Figma systems, prototypes, design-to-production |
 
 <br/>
 
@@ -53,20 +53,33 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 <div align="center">
 
-### 🖥️ Frontend
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,vue,angular,html,css,bootstrap&perline=10"/>
+**Frontend**
 
-### ⚙️ Backend
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,python,django,flask,java,spring,php&perline=10"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,vue,angular,html,css,bootstrap&perline=10" />
 
-### 📱 Mobile
-<img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift&perline=10"/>
+<br/>
 
-### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws,gcp,azure,docker,kubernetes&perline=10"/>
+**Backend**
 
-### 🎨 Design & Tooling
-<img src="https://skillicons.dev/icons?i=figma,git,github,linux,nginx,vscode&perline=10"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,python,django,flask,java,spring,php&perline=10" />
+
+<br/>
+
+**Mobile**
+
+<img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift&perline=8" />
+
+<br/>
+
+**Databases & Cloud**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws,gcp,azure,docker,kubernetes&perline=10" />
+
+<br/>
+
+**Design & Tooling**
+
+<img src="https://skillicons.dev/icons?i=figma,git,github,linux,nginx,vscode&perline=10" />
 
 </div>
 
@@ -76,14 +89,14 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 ## ⚡ No-Code Platforms
 
-> Rapid prototyping and automation without the overhead.
+> Rapid prototyping and automation — speed when it counts, code when it matters.
 
 | Platform | Best For |
 |---|---|
-| 🫧 **Bubble.io** | SaaS MVPs, internal tools, rapid prototyping |
-| 🌊 **Webflow** | Marketing sites, landing pages, CMS |
-| ⚡ **Zapier / Make** | Workflow automation, integrations |
-| 📊 **Airtable** | Data operations, lightweight backends |
+| **Bubble.io** | SaaS MVPs, internal tools, rapid prototyping |
+| **Webflow** | Marketing sites, landing pages, CMS |
+| **Zapier / Make** | Workflow automation & integrations |
+| **Airtable** | Data operations & lightweight backends |
 
 <br/>
 
@@ -93,13 +106,13 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&hide_border=true&bg_color=ffffff&title_color=4F46E5&icon_color=6366F1&text_color=1e1b4b&ring_color=4F46E5&border_radius=12"/>
-&nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&hide_border=true&bg_color=ffffff&title_color=4F46E5&text_color=1e1b4b&border_radius=12"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&hide_border=false&theme=tokyonight&title_color=818CF8&icon_color=6366F1&text_color=c9d1d9&bg_color=0d1117&border_color=4F46E5&border_radius=10" />
+&nbsp;&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&hide_border=false&theme=tokyonight&title_color=818CF8&text_color=c9d1d9&bg_color=0d1117&border_color=4F46E5&border_radius=10" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=slasheasy&hide_border=true&background=ffffff&ring=4F46E5&fire=6366F1&currStreakLabel=4F46E5&sideLabels=1e1b4b&dates=6b7280&stroke=EEF2FF"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=slasheasy&theme=tokyonight&hide_border=false&background=0d1117&ring=6366F1&fire=818CF8&currStreakLabel=818CF8&sideLabels=c9d1d9&dates=8b949e&stroke=4F46E5&border=4F46E5" />
 
 </div>
 
@@ -111,7 +124,7 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=slasheasy&bg_color=ffffff&color=4F46E5&line=6366F1&point=4F46E5&area=true&area_color=EEF2FF&hide_border=true&custom_title=SlashEasy%20%E2%80%94%20Contribution%20Activity&title_color=4F46E5"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=slasheasy&bg_color=0d1117&color=818CF8&line=6366F1&point=ffffff&area=true&area_color=4F46E530&hide_border=false&border_color=4F46E5&custom_title=SlashEasy%20—%20Contribution%20Activity&title_color=818CF8" />
 
 </div>
 
@@ -123,15 +136,13 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 <div align="center">
 
-> **Have a product idea? Ready to scale? Need a technical partner?**
->
-> SlashEasy covers the full product lifecycle — from **discovery → design → development → deployment**.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4F46E5,100:6366F1&height=120&text=Have%20a%20product%20idea%3F%20Let%27s%20talk.&fontSize=28&fontColor=ffffff&desc=We%20cover%20the%20full%20product%20lifecycle%20%E2%80%94%20discovery%20%E2%80%BA%20design%20%E2%80%BA%20development%20%E2%80%BA%20deployment&descSize=14&descAlignY=72&fontAlignY=40" width="100%" />
 
-<br/>
+<br/><br/>
 
 [![Book a Free Consultation](https://img.shields.io/badge/📅%20Book%20Free%20Consultation-4F46E5?style=for-the-badge&logoColor=white)](https://slasheasy.com)
 &nbsp;
-[![View Our Work](https://img.shields.io/badge/🗂️%20View%20Portfolio-6366F1?style=for-the-badge&logoColor=white)](https://slasheasy.com)
+[![View Portfolio](https://img.shields.io/badge/🗂️%20View%20Portfolio-6366F1?style=for-the-badge&logoColor=white)](https://slasheasy.com)
 
 <br/>
 
@@ -143,11 +154,12 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 ---
 
+<!-- FOOTER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:818CF8,50:6366F1,100:4F46E5&height=130&section=footer" />
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:818CF8,50:6366F1,100:4F46E5&height=120&section=footer"/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=slasheasy&style=flat-square&color=4F46E5&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=slasheasy&style=for-the-badge&color=4F46E5&label=PROFILE+VIEWS)
 
 <sub>Built with passion by <strong>SlashEasy</strong> · <a href="https://slasheasy.com">slasheasy.com</a></sub>
 
