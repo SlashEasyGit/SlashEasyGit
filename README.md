@@ -106,13 +106,13 @@ We architect clean systems, design modern interfaces, and ship products that sca
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&hide_border=false&theme=tokyonight&title_color=818CF8&icon_color=6366F1&text_color=c9d1d9&bg_color=0d1117&border_color=4F46E5&border_radius=10" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=818CF8&icon_color=6366F1&text_color=c9d1d9&bg_color=0d1117" />
 &nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&hide_border=false&theme=tokyonight&title_color=818CF8&text_color=c9d1d9&bg_color=0d1117&border_color=4F46E5&border_radius=10" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&hide_border=true&langs_count=8&title_color=818CF8&text_color=c9d1d9&bg_color=0d1117" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=slasheasy&theme=tokyonight&hide_border=false&background=0d1117&ring=6366F1&fire=818CF8&currStreakLabel=818CF8&sideLabels=c9d1d9&dates=8b949e&stroke=4F46E5&border=4F46E5" />
+<img src="https://streak-stats.demolab.com?user=slasheasy&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=6366F1&fire=818CF8&currStreakLabel=818CF8&sideLabels=c9d1d9&dates=8b949e" />
 
 </div>
 
