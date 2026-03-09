@@ -1,285 +1,167 @@
-<!-- ================= HEADER ================= -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=SlashEasy&fontSize=60&fontColor=ffffff&desc=Digital%20Product%20Development%20Studio&descAlignY=65&animation=fadeIn"/>
-
 <div align="center">
 
-# 🚀 SlashEasy
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:0d0d0d&height=3&section=header"/>
 
-### We Build Scalable Digital Products
+<!-- LOGO / BRAND MARK -->
+<a href="https://slasheasy.com">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0f0f,50:111111,100:0f0f0f&height=280&section=header&text=SlashEasy&fontSize=72&fontColor=ffffff&fontAlignY=45&desc=Digital%20Product%20Studio&descSize=18&descAlignY=65&descAlign=50&animation=twinkling&stroke=e2ff00&strokeWidth=1" width="100%"/>
+</a>
 
-**No-Code • Full Stack • Mobile Apps • Cloud • AI**
+<br/>
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Full+Stack+Web+Development;React+%7C+Next.js+%7C+Node.js+%7C+Laravel;Mobile+Apps+with+React+Native+%26+Flutter;Cloud+%26+AI+Powered+Applications;Building+Scalable+Digital+Products"/>
-</p>
+<!-- ANIMATED TAGLINE -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=1200&color=E2FF00&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=40&lines=We+turn+ideas+into+scalable+digital+products.;Full+Stack+%E2%80%A2+Mobile+%E2%80%A2+Cloud+%E2%80%A2+AI+%E2%80%A2+No-Code;Building+with+precision%2C+shipping+with+speed." alt="Typing SVG" />
 
+<br/>
+<br/>
+
+<!-- SOCIAL BADGES — Sharp, minimal -->
+[![Website](https://img.shields.io/badge/slasheasy.com-%23E2FF00?style=for-the-badge&logo=googlechrome&logoColor=black)](https://slasheasy.com)
+[![Email](https://img.shields.io/badge/hello@slasheasy.com-111111?style=for-the-badge&logo=gmail&logoColor=E2FF00)](mailto:hello@slasheasy.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=E2FF00)](https://linkedin.com/company/slasheasy)
+[![Twitter](https://img.shields.io/badge/Twitter-111111?style=for-the-badge&logo=x&logoColor=E2FF00)](https://twitter.com/slasheasy)
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+<kbd>MVP Development</kbd>&nbsp;&nbsp;<kbd>Full-Stack Platforms</kbd>&nbsp;&nbsp;<kbd>Mobile Apps</kbd>&nbsp;&nbsp;<kbd>UI/UX Design</kbd>&nbsp;&nbsp;<kbd>Cloud & DevOps</kbd>&nbsp;&nbsp;<kbd>AI Integration</kbd>
 </div>
 
 ---
 
-# 💡 About SlashEasy
+<br/>
 
-**SlashEasy** is a **digital product development studio** helping startups and businesses turn ideas into scalable digital platforms.
+## `>_ WHAT WE DO`
 
-We specialize in building:
+```
+SlashEasy is a digital product development studio.
+We help startups and businesses ship fast — without cutting corners.
+```
 
-* SaaS products
-* Custom web applications
-* Mobile apps
-* Automation systems
-* Cloud-native platforms
+> We don't just write code. We architect systems that **scale**, design interfaces that **convert**, and deliver products that **last**.
 
-Our focus is delivering **clean architecture, scalable systems, and modern user experiences.**
+**We build:**
+- ⚡ **SaaS platforms** — multi-tenant, subscription-ready, scalable
+- 🛍️ **Marketplaces** — multi-vendor, e-commerce, booking systems
+- 🏢 **Business tools** — CRM, ERP, HR, LMS, inventory
+- 📱 **Mobile apps** — iOS & Android, React Native & Flutter
+- 🤖 **AI-powered apps** — LLM integrations, automation pipelines
+- 🎨 **Design systems** — Figma → production, component libraries
 
----
-
-# 🚀 Core Services
-
-| Service                    | Description                             |
-| -------------------------- | --------------------------------------- |
-| 🚀 MVP Development         | Rapid product development for startups  |
-| ⚙️ Full-Stack Applications | End-to-end scalable web platforms       |
-| 📱 Mobile Apps             | Cross-platform iOS & Android apps       |
-| 🎨 UI/UX Design            | Product-focused interface design        |
-| ☁️ Cloud Infrastructure    | Scalable deployment architecture        |
-| 🤖 Automation & AI         | AI integrations and workflow automation |
+<br/>
 
 ---
 
-# 🛠 Technology Expertise
-
-## 🖥 Frontend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,angular,vue,html,css,js,ts,tailwind,bootstrap"/>
-</p>
-
-Technologies
-
-* React.js
-* Next.js
-* Angular
-* Vue.js
-* TypeScript
-* JavaScript
-* HTML5 / CSS3
-* Tailwind CSS
-* Bootstrap
-
-Capabilities
-
-* SaaS dashboards
-* Admin panels
-* Progressive web apps
-* Real-time UI systems
-
----
-
-## ⚙️ Backend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,php,python,django,flask,java,spring"/>
-</p>
-
-Technologies
-
-* Node.js
-* Express.js
-* NestJS
-* Laravel
-* PHP
-* Python
-* Django
-* Flask
-* Java
-* Spring Boot
-
-Capabilities
-
-* REST APIs
-* Microservices architecture
-* SaaS backend systems
-* Authentication & authorization
-* Payment integrations
-
----
-
-## 📱 Mobile Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift"/>
-</p>
-
-Technologies
-
-* React Native
-* Flutter
-* Kotlin
-* Swift
-* Expo
-
-Capabilities
-
-* Cross-platform apps
-* Real-time mobile apps
-* App Store & Play Store deployments
-
----
-
-## 🗄 Databases
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase"/>
-</p>
-
-Technologies
-
-* MySQL
-* PostgreSQL
-* MongoDB
-* Redis
-* Firebase
-* Supabase
-
----
-
-## ☁️ Cloud & DevOps
-
-<p>
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,nginx,linux"/>
-</p>
-
-Technologies
-
-* AWS
-* Google Cloud
-* Azure
-* Docker
-* Kubernetes
-* Nginx
-* CI/CD pipelines
-* Linux servers
-
----
-
-## ⚡ No-Code Platforms
-
-* Bubble.io
-* Webflow
-* Zapier
-* Make (Integromat)
-* Airtable
-
-Used for
-
-* Rapid MVP development
-* Automation systems
-* Internal tools
-* SaaS prototypes
-
----
-
-## 🎨 Design & Product
-
-<p>
-<img src="https://skillicons.dev/icons?i=figma"/>
-</p>
-
-Tools
-
-* Figma
-* UI/UX Design
-* Design Systems
-* Interactive Prototypes
-* Product Wireframes
-
----
-
-# 🌐 Example Solutions We Build
-
-### SaaS Platforms
-
-* CRM systems
-* Analytics dashboards
-* Multi-tenant SaaS products
-* Workflow automation tools
-
-### Business Systems
-
-* HR management systems
-* Learning management platforms
-* Booking systems
-* Inventory systems
-
-### Marketplaces
-
-* Multi-vendor platforms
-* E-commerce systems
-* Subscription platforms
-
----
-
-# 📊 GitHub Activity
+## `>_ TECHNOLOGY STACK`
 
 <div align="center">
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&theme=tokyonight&hide_border=true"/>
+### Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,vue,angular,html,css,bootstrap&perline=10&theme=dark"/>
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&theme=tokyonight&hide_border=true"/>
+### Backend
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,python,django,flask,java,spring,php&perline=10&theme=dark"/>
+
+### Mobile
+<img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift&perline=10&theme=dark"/>
+
+### Data & Infrastructure
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws,gcp,azure,docker,kubernetes&perline=10&theme=dark"/>
+
+### Design & Tools
+<img src="https://skillicons.dev/icons?i=figma,git,github,linux,nginx,vscode&perline=10&theme=dark"/>
 
 </div>
 
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=slasheasy&theme=tokyonight&hide_border=true"/>
-</p>
+<br/>
 
 ---
 
-# 🐍 Contribution Snake
+## `>_ NO-CODE EXPERTISE`
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/slasheasy/slasheasy/output/github-contribution-grid-snake.svg"/>
-</p>
+> Speed when it counts. Code when it matters.
 
-*(Requires GitHub Action workflow to generate snake animation.)*
+| Platform | Use Case |
+|---|---|
+| **Bubble.io** | SaaS MVPs, internal tools |
+| **Webflow** | Marketing sites, CMS |
+| **Zapier / Make** | Workflow automation |
+| **Airtable** | Data ops, lightweight backends |
 
----
-
-# 🤝 Work With Us
-
-If you need help with:
-
-* Building an MVP
-* Scaling a SaaS platform
-* Creating internal tools
-* Automating workflows
-* Designing modern interfaces
-
-**SlashEasy can help you build it.**
+<br/>
 
 ---
 
-# 📬 Contact
+## `>_ GITHUB STATS`
 
-🌐 https://slasheasy.com
+<div align="center">
 
-📧 [hello@slasheasy.com](mailto:hello@slasheasy.com)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=e2ff00&icon_color=e2ff00&text_color=ffffff&ring_color=e2ff00"/>
+&nbsp;
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=e2ff00&text_color=ffffff"/>
 
-💼 https://linkedin.com/company/slasheasy
+<br/><br/>
 
-🐦 https://twitter.com/slasheasy
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=slasheasy&theme=dark&hide_border=true&background=0d0d0d&ring=e2ff00&fire=e2ff00&currStreakLabel=e2ff00&sideLabels=ffffff&dates=888888&stroke=e2ff00"/>
+
+</div>
+
+<br/>
+
+---
+
+## `>_ CONTRIBUTION ACTIVITY`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=slasheasy&bg_color=0d0d0d&color=e2ff00&line=e2ff00&point=ffffff&area=true&area_color=e2ff0020&hide_border=true&custom_title=SlashEasy%20Contribution%20Graph"/>
+
+</div>
+
+<br/>
+
+---
+
+## `>_ WORK WITH US`
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   Building something?  Let's talk.                      │
+│                                                         │
+│   MVP → Launch → Scale                                  │
+│   We cover the full product lifecycle.                  │
+│                                                         │
+│   🌐  slasheasy.com                                     │
+│   📧  hello@slasheasy.com                               │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+[![Let's Build Together](https://img.shields.io/badge/LET'S%20BUILD%20TOGETHER-%23E2FF00?style=for-the-badge&logoColor=black)](https://slasheasy.com)
+
+</div>
+
+<br/>
 
 ---
 
 <div align="center">
 
-⭐ **Built with passion by SlashEasy**
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:0d0d0d&height=1&section=footer"/>
+
+<sub>
+Built with precision by <strong>SlashEasy</strong> · <a href="https://slasheasy.com">slasheasy.com</a>
+</sub>
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=slasheasy&style=flat-square&color=e2ff00&label=PROFILE+VIEWS)
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer"/>
