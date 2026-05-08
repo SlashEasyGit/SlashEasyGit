@@ -1,166 +1,92 @@
-<!-- ===== HEADER BANNER ===== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:6366F1,100:818CF8&height=260&section=header&text=SlashEasy&fontSize=78&fontColor=ffffff&fontAlignY=42&desc=Digital%20Product%20Development%20Studio&descSize=18&descAlignY=63&descAlign=50&animation=fadeIn&fontAlign=50" />
-
 <div align="center">
 
-<!-- ANIMATED TAGLINE — white text, always visible on any background -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=18&duration=2800&pause=1200&color=FFFFFF&background=4F46E5&center=true&vCenter=true&width=720&height=46&lines=Transform+Your+Ideas+With+Expert+Developers.;Full+Stack+%E2%80%A2+Mobile+%E2%80%A2+Cloud+%E2%80%A2+AI+%E2%80%A2+No-Code;Crafting+Web%2C+MVP+%26+Mobile+Apps+at+Speed." alt="SlashEasy" />
+<!-- ✅ WORKING: Capsule Render Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=220&section=header&text=SlashEasy&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20MVP%20Studio&descAlignY=60&descAlign=50&descSize=24" width="100%"/>
 
-<br/><br/>
-
-<!-- SOCIAL BADGES — solid fills, always readable -->
-[![Website](https://img.shields.io/badge/🌐_slasheasy.com-4F46E5?style=for-the-badge&logoColor=white)](https://slasheasy.com)
-[![Email](https://img.shields.io/badge/📧_hello@slasheasy.com-6366F1?style=for-the-badge&logoColor=white)](mailto:hello@slasheasy.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/slasheasy)
-[![Twitter](https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/slasheasy)
+<!-- ✅ WORKING: Typing SVG via readme-typing-svg (use herokuapp mirror which GitHub allows) -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&width=700&lines=🚀+From+Idea+to+Live+Product+in+3+Weeks;⚡+AI-Powered+Development+Studio;🌍+Serving+Founders+Globally;💡+MVP+%7C+Web+%7C+Mobile+%7C+AI+Apps;🔥+80%2B+Products+Shipped+Across+5+Continents" alt="Typing SVG" />
+</a>
 
 <br/>
 
-<!-- SERVICE TAGS — white text on indigo, visible everywhere -->
-![](https://img.shields.io/badge/🚀_MVP_Development-4F46E5?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/⚙️_Full--Stack_Apps-6366F1?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/📱_Mobile_Apps-4F46E5?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/☁️_Cloud_&_DevOps-6366F1?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/🤖_AI_Integration-4F46E5?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/⚡_No--Code-6366F1?style=flat-square&logoColor=white)
+<!-- Badges Row -->
+[![Website](https://img.shields.io/badge/🌐_Website-slasheasy.com-6C63FF?style=for-the-badge&logoColor=white)](https://slasheasy.com)
+[![Email](https://img.shields.io/badge/📧_Email-info@slasheasy.com-6C63FF?style=for-the-badge)](mailto:info@slasheasy.com)
+[![Upwork](https://img.shields.io/badge/Upwork-Top_Rated_Plus_⭐_5.0-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://slasheasy.com)
+[![Phone](https://img.shields.io/badge/📞_+91_9898707393-6C63FF?style=for-the-badge)](tel:+919898707393)
 
 </div>
 
-<br/>
+---
+
+<!-- About Section -->
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+
+## 👋 Who We Are
+
+**SlashEasy** is a battle-tested AI-Powered MVP Studio helping founders across **North America, Europe, the Middle East, Asia-Pacific, and India** go from blank Figma to live product in under **3 weeks**.
+
+- 🚀 **80+ digital products** shipped across 5 continents
+- ⚡ **2–3 weeks** average delivery time (vs 3–6 months at big agencies)
+- 🏆 **Top Rated Plus** on Upwork — 100% Job Success Score
+- 💰 **$200K+** earned on Upwork · 5.0★ across all reviews
+- 🌍 Trusted by startups in **15+ industries**
+
+<br clear="right"/>
 
 ---
 
-## 👋 About SlashEasy
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=3&section=header" width="100%"/>
+</div>
 
-**SlashEasy** is a **digital product development studio** helping startups and businesses turn ideas into scalable digital platforms — fast.
-
-We architect clean systems, design modern interfaces, and ship products that scale from day one.
-
-| | What We Build |
-|---|---|
-| 🚀 | **SaaS Platforms** — multi-tenant, subscription-ready dashboards |
-| 🛍️ | **Marketplaces** — multi-vendor, e-commerce, booking & subscription |
-| 🏢 | **Business Systems** — CRM, HR, LMS, ERP, inventory management |
-| 📱 | **Mobile Apps** — iOS & Android with React Native & Flutter |
-| 🤖 | **AI-Powered Apps** — LLM integrations & automation pipelines |
-| 🎨 | **UI/UX Design** — Figma systems, prototypes, design-to-production |
-
-<br/>
-
----
-
-## 🛠️ Technology Stack
+## 🛠️ What We Build
 
 <div align="center">
 
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,vue,angular,html,css,bootstrap&perline=10" />
-
-<br/>
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,laravel,python,django,flask,java,spring,php&perline=10" />
-
-<br/>
-
-**Mobile**
-
-<img src="https://skillicons.dev/icons?i=react,flutter,kotlin,swift&perline=8" />
-
-<br/>
-
-**Databases & Cloud**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase,aws,gcp,azure,docker,kubernetes&perline=10" />
-
-<br/>
-
-**Design & Tooling**
-
-<img src="https://skillicons.dev/icons?i=figma,git,github,linux,nginx,vscode&perline=10" />
+| 🚀 MVP Development | 🌐 Web Development | 📱 Mobile Apps | 🔬 POC / Validation |
+|:---:|:---:|:---:|:---:|
+| Market-ready MVPs in 2–3 weeks. AI-powered, no corners cut. | SaaS dashboards, full-stack platforms built to scale. | High-performance iOS & Android. Clean code, day one. | Validate your riskiest assumptions before full budget. |
 
 </div>
 
-<br/>
-
 ---
 
-## ⚡ No-Code Platforms
-
-> Rapid prototyping and automation — speed when it counts, code when it matters.
-
-| Platform | Best For |
-|---|---|
-| **Bubble.io** | SaaS MVPs, internal tools, rapid prototyping |
-| **Webflow** | Marketing sites, landing pages, CMS |
-| **Zapier / Make** | Workflow automation & integrations |
-| **Airtable** | Data operations & lightweight backends |
-
-<br/>
-
----
-
-## 📊 GitHub Stats
+## ⚙️ Technology Stack
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=slasheasy&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=818CF8&icon_color=6366F1&text_color=c9d1d9&bg_color=0d1117" />
-&nbsp;&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=slasheasy&layout=compact&hide_border=true&langs_count=8&title_color=818CF8&text_color=c9d1d9&bg_color=0d1117" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=slasheasy&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=6366F1&fire=818CF8&currStreakLabel=818CF8&sideLabels=c9d1d9&dates=8b949e" />
+<!-- Animated Tech Badges -->
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Bubble](https://img.shields.io/badge/Bubble.io-1C1C1C?style=for-the-badge&logo=bubble&logoColor=white)
+![Webflow](https://img.shields.io/badge/Webflow-4353FF?style=for-the-badge&logo=webflow&logoColor=white)
+![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white)
 
 </div>
 
-<br/>
-
 ---
-
-## 📈 Contribution Activity
+## 🏗️ Our 4-Phase Build Process
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=slasheasy&bg_color=0d1117&color=818CF8&line=6366F1&point=ffffff&area=true&area_color=4F46E530&hide_border=false&border_color=4F46E5&custom_title=SlashEasy%20—%20Contribution%20Activity&title_color=818CF8" />
-
-</div>
-
-<br/>
-
----
-
-## 🤝 Let's Build Together
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4F46E5,100:6366F1&height=120&text=Have%20a%20product%20idea%3F%20Let%27s%20talk.&fontSize=28&fontColor=ffffff&desc=We%20cover%20the%20full%20product%20lifecycle%20%E2%80%94%20discovery%20%E2%80%BA%20design%20%E2%80%BA%20development%20%E2%80%BA%20deployment&descSize=14&descAlignY=72&fontAlignY=40" width="100%" />
-
-<br/><br/>
-
-[![Book a Free Consultation](https://img.shields.io/badge/📅%20Book%20Free%20Consultation-4F46E5?style=for-the-badge&logoColor=white)](https://slasheasy.com)
-&nbsp;
-[![View Portfolio](https://img.shields.io/badge/🗂️%20View%20Portfolio-6366F1?style=for-the-badge&logoColor=white)](https://slasheasy.com)
-
-<br/>
-
-**🌐 [slasheasy.com](https://slasheasy.com)** &nbsp;·&nbsp; **📧 [hello@slasheasy.com](mailto:hello@slasheasy.com)**
-
-</div>
-
-<br/>
-
----
-
-<!-- FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:818CF8,50:6366F1,100:4F46E5&height=130&section=footer" />
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=slasheasy&style=for-the-badge&color=4F46E5&label=PROFILE+VIEWS)
-
-<sub>Built with passion by <strong>SlashEasy</strong> · <a href="https://slasheasy.com">slasheasy.com</a></sub>
-
-</div>
+```mermaid
+graph TD
+    A["🔍 Day 1–2\nTechnical Discovery"] --> B["🎨 Day 3–5\nUI/UX Design"]
+    B --> C["⚡ Day 6–17\nAI-Accelerated Build"]
+    C --> D["🚀 Day 18–21\nLaunch & Handover"]
+    style A fill:#6C63FF,color:#fff,stroke:#6C63FF
+    style B fill:#7C73FF,color:#fff,stroke:#7C73FF
+    style C fill:#8C83FF,color:#fff,stroke:#8C83FF
+    style D fill:#9C93FF,color:#fff,stroke:#9C93FF
+```
