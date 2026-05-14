@@ -30,7 +30,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@stoplight/spectral-cli": "^6.14.2",
+    "@stoplight/spectral-cli": "^6.16.0",
     "@tcharts/config": "workspace:*",
     "@types/node": "^20.14.0",
     "rimraf": "^6.0.1",

@@ -291,8 +291,8 @@ importers:
         version: 3.25.76
     devDependencies:
       '@stoplight/spectral-cli':
-        specifier: ^6.14.2
-        version: 6.15.1
+        specifier: ^6.16.0
+        version: 6.16.0
       '@tcharts/config':
         specifier: workspace:*
         version: link:../config
@@ -1878,13 +1878,13 @@ packages:
     resolution: {integrity: sha512-lyIc6JUlUA8Ve5ELywPC8I2Sdnh1zc1zmbYgVarhXIp9YeAB0ReeqmGEOWNtlHkbP2DAA1AL65Wfn2ncjK/jtQ==}
     engines: {node: '>=8'}
 
-  '@stoplight/spectral-cli@6.15.1':
-    resolution: {integrity: sha512-ev72bUglbaZvFSMWCP5o1Iso5NGgbLZOAuedvRxYrUMey9dVCR83i033tSFvDv6cpj86HsbEmiilh8vwrY/asQ==}
+  '@stoplight/spectral-cli@6.16.0':
+    resolution: {integrity: sha512-P1acHIV/hDiO3w0YNUc3pD7/0q68SMAMyWVxAPUGzsAeq50lLpl0obN5j3QITMgJPhPByvBIjBV4ftkBd8nwMg==}
     engines: {node: ^16.20 || ^18.18 || >= 20.17}
     hasBin: true
 
-  '@stoplight/spectral-core@1.22.0':
-    resolution: {integrity: sha512-4hTxMDs4TFUG4/jKjaZttA65gNuV2PCKI9+51I+J4nL6ylo17DlbW+sl6byKnBuV/85HxaV33ri5fEGlp8lTSA==}
+  '@stoplight/spectral-core@1.23.0':
+    resolution: {integrity: sha512-WvdgmiiJrjiMrcw7ByxfcYtUvAXNp2MhAfcEIXP3Mn8ZOVwyAWIsFjLlsE5zRqj0LuN8+7OQM/L+BMcHj6x/BQ==}
     engines: {node: ^16.20 || ^18.18 || >= 20.17}
 
   '@stoplight/spectral-formats@1.8.2':
@@ -1915,8 +1915,8 @@ packages:
     resolution: {integrity: sha512-KINmItys8OhdmjudgcIu7siuxQ4hDdbMsTPW/UkXhoiEosiwok1xAyaYLBfckH9zH85TZBkDDbIbsiMoDCIxBw==}
     engines: {node: ^16.20 || ^18.18 || >= 20.17}
 
-  '@stoplight/spectral-rulesets@1.22.1':
-    resolution: {integrity: sha512-DaaQJioKuYkRsOuKIJfX2ek7G7f6OCU3CI3K7ABaOcTFMiHj29SJLDdb04mCjXZFXMlXHjmCl2ZpKW6heieXpw==}
+  '@stoplight/spectral-rulesets@1.22.2':
+    resolution: {integrity: sha512-JsaNqtxBRfjKTCgQJK+LoOyDhzm9Hhw9kV9U3NalsQMH5ERBJw6IVhYyCZtgHBc5FhjXao2iJnnDfGta07M4wQ==}
     engines: {node: ^16.20 || ^18.18 || >= 20.17}
 
   '@stoplight/spectral-runtime@1.1.5':
@@ -6650,17 +6650,17 @@ snapshots:
 
   '@stoplight/path@1.3.2': {}
 
-  '@stoplight/spectral-cli@6.15.1':
+  '@stoplight/spectral-cli@6.16.0':
     dependencies:
       '@stoplight/json': 3.21.7
       '@stoplight/path': 1.3.2
-      '@stoplight/spectral-core': 1.22.0
+      '@stoplight/spectral-core': 1.23.0
       '@stoplight/spectral-formatters': 1.5.1
       '@stoplight/spectral-parsers': 1.0.5
       '@stoplight/spectral-ref-resolver': 1.0.5
       '@stoplight/spectral-ruleset-bundler': 1.7.0
       '@stoplight/spectral-ruleset-migrator': 1.12.0
-      '@stoplight/spectral-rulesets': 1.22.1
+      '@stoplight/spectral-rulesets': 1.22.2
       '@stoplight/spectral-runtime': 1.1.5
       '@stoplight/types': 13.20.0
       chalk: 4.1.2
@@ -6674,7 +6674,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@stoplight/spectral-core@1.22.0':
+  '@stoplight/spectral-core@1.23.0':
     dependencies:
       '@stoplight/better-ajv-errors': 1.0.3(ajv@8.20.0)
       '@stoplight/json': 3.21.7
@@ -6703,7 +6703,7 @@ snapshots:
   '@stoplight/spectral-formats@1.8.2':
     dependencies:
       '@stoplight/json': 3.21.7
-      '@stoplight/spectral-core': 1.22.0
+      '@stoplight/spectral-core': 1.23.0
       '@types/json-schema': 7.0.15
       tslib: 2.8.1
     transitivePeerDependencies:
@@ -6712,7 +6712,7 @@ snapshots:
   '@stoplight/spectral-formatters@1.5.1':
     dependencies:
       '@stoplight/path': 1.3.2
-      '@stoplight/spectral-core': 1.22.0
+      '@stoplight/spectral-core': 1.23.0
       '@stoplight/spectral-runtime': 1.1.5
       '@stoplight/types': 13.20.0
       '@types/markdown-escape': 1.1.3
@@ -6731,7 +6731,7 @@ snapshots:
     dependencies:
       '@stoplight/better-ajv-errors': 1.0.3(ajv@8.20.0)
       '@stoplight/json': 3.21.7
-      '@stoplight/spectral-core': 1.22.0
+      '@stoplight/spectral-core': 1.23.0
       '@stoplight/spectral-formats': 1.8.2
       '@stoplight/spectral-runtime': 1.1.5
       ajv: 8.20.0
@@ -6764,13 +6764,13 @@ snapshots:
     dependencies:
       '@rollup/plugin-commonjs': 22.0.2(rollup@2.80.0)
       '@stoplight/path': 1.3.2
-      '@stoplight/spectral-core': 1.22.0
+      '@stoplight/spectral-core': 1.23.0
       '@stoplight/spectral-formats': 1.8.2
       '@stoplight/spectral-functions': 1.10.2
       '@stoplight/spectral-parsers': 1.0.5
       '@stoplight/spectral-ref-resolver': 1.0.5
       '@stoplight/spectral-ruleset-migrator': 1.12.0
-      '@stoplight/spectral-rulesets': 1.22.1
+      '@stoplight/spectral-rulesets': 1.22.2
       '@stoplight/spectral-runtime': 1.1.5
       '@stoplight/types': 13.20.0
       '@types/node': 20.19.41
@@ -6800,12 +6800,12 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@stoplight/spectral-rulesets@1.22.1':
+  '@stoplight/spectral-rulesets@1.22.2':
     dependencies:
       '@asyncapi/specs': 6.11.1
       '@stoplight/better-ajv-errors': 1.0.3(ajv@8.20.0)
       '@stoplight/json': 3.21.7
-      '@stoplight/spectral-core': 1.22.0
+      '@stoplight/spectral-core': 1.23.0
       '@stoplight/spectral-formats': 1.8.2
       '@stoplight/spectral-functions': 1.10.2
       '@stoplight/spectral-runtime': 1.1.5
