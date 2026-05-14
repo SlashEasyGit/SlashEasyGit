@@ -1,0 +1,114 @@
+/*
+ * Tcharts design tokens.
+ * Source of truth for colours, spacing, radii, and shadows.
+ * Tailwind preset (../tailwind-preset.ts) reads from these CSS variables —
+ * no Tailwind colour utility may reference a hex value directly.
+ *
+ * Brand palette per Brand Guidelines; semantic tokens per DESIGN_SYSTEM.md §3.
+ */
+
+:root {
+    /* ---- Brand primitives ---- */
+    --tcharts-green: 145 50% 49%;        /* #3DBF62  primary */
+    --tcharts-green-fg: 0 0% 100%;       /* white on green */
+    --tcharts-blue: 213 70% 50%;         /* #2C7BD9  accent */
+    --tcharts-blue-fg: 0 0% 100%;
+    --tcharts-amber: 38 95% 55%;         /* warnings */
+    --tcharts-red: 0 72% 51%;            /* errors */
+    --tcharts-slate-50: 210 20% 98%;
+    --tcharts-slate-100: 210 16% 95%;
+    --tcharts-slate-200: 210 14% 90%;
+    --tcharts-slate-300: 210 12% 80%;
+    --tcharts-slate-400: 210 10% 60%;
+    --tcharts-slate-500: 210 8% 45%;
+    --tcharts-slate-600: 210 10% 32%;
+    --tcharts-slate-700: 210 12% 22%;
+    --tcharts-slate-800: 210 14% 14%;
+    --tcharts-slate-900: 210 16% 8%;
+
+    /* ---- Semantic tokens (light mode) ---- */
+    --background: 0 0% 100%;
+    --foreground: var(--tcharts-slate-900);
+
+    --surface: 0 0% 100%;
+    --surface-muted: var(--tcharts-slate-50);
+    --surface-raised: 0 0% 100%;
+
+    --primary: var(--tcharts-green);
+    --primary-foreground: var(--tcharts-green-fg);
+
+    --accent: var(--tcharts-blue);
+    --accent-foreground: var(--tcharts-blue-fg);
+
+    --secondary: var(--tcharts-slate-100);
+    --secondary-foreground: var(--tcharts-slate-900);
+
+    --muted: var(--tcharts-slate-100);
+    --muted-foreground: var(--tcharts-slate-500);
+
+    --destructive: var(--tcharts-red);
+    --destructive-foreground: 0 0% 100%;
+
+    --warning: var(--tcharts-amber);
+    --warning-foreground: var(--tcharts-slate-900);
+
+    --border: var(--tcharts-slate-200);
+    --border-focus: var(--tcharts-blue);
+
+    --input: var(--tcharts-slate-200);
+    --ring: var(--tcharts-blue);
+
+    /* ---- Sidebar (dark surface in light mode per design system §4.3) ---- */
+    --sidebar-bg: var(--tcharts-slate-900);
+    --sidebar-fg: var(--tcharts-slate-100);
+    --sidebar-fg-muted: var(--tcharts-slate-400);
+    --sidebar-active-bg: var(--tcharts-slate-700);
+
+    /* ---- Radii (per design system §3.5) ---- */
+    --radius-sm: 0.25rem;
+    --radius: 0.5rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+
+    /* ---- Z-index scale ---- */
+    --z-sticky: 30;
+    --z-dropdown: 40;
+    --z-modal: 50;
+    --z-toast: 60;
+  }
+
+  /* Dark mode opt-in via `class="dark"` on <html>. */
+  .dark {
+    --background: var(--tcharts-slate-900);
+    --foreground: var(--tcharts-slate-100);
+
+    --surface: var(--tcharts-slate-800);
+    --surface-muted: var(--tcharts-slate-700);
+    --surface-raised: var(--tcharts-slate-700);
+
+    --secondary: var(--tcharts-slate-700);
+    --secondary-foreground: var(--tcharts-slate-100);
+
+    --muted: var(--tcharts-slate-700);
+    --muted-foreground: var(--tcharts-slate-400);
+
+    --border: var(--tcharts-slate-700);
+    --input: var(--tcharts-slate-700);
+
+    --sidebar-bg: 210 16% 5%;
+    --sidebar-active-bg: var(--tcharts-slate-700);
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
