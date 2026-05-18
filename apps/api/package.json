@@ -43,7 +43,7 @@
     "@nestjs/testing": "^10.4.4",
     "@tcharts/config": "workspace:*",
     "@types/node": "^20.14.0",
-    "typescript": "^5.6.0",
+    "typescript": "^6.0.3",
     "vitest": "^2.1.0"
   }
 }
