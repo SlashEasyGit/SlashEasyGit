@@ -22,7 +22,7 @@
     "@nestjs/event-emitter": "^2.1.1",
     "@nestjs/platform-fastify": "^10.4.4",
     "@prisma/client": "^5.22.0",
-    "@sentry/node": "^8.36.0",
+    "@sentry/node": "^10.53.1",
     "@tcharts/contracts": "workspace:*",
     "@tcharts/db": "workspace:*",
     "@tcharts/domain": "workspace:*",
