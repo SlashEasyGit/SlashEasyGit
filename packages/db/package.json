@@ -26,14 +26,14 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "^5.22.0"
+    "@prisma/client": "^7.8.0"
   },
   "devDependencies": {
     "@tcharts/config": "workspace:*",
     "@tcharts/domain": "workspace:*",
     "@types/node": "^20.14.0",
     "dotenv-cli": "^7.4.4",
-    "prisma": "^5.22.0",
+    "prisma": "^7.8.0",
     "rimraf": "^6.0.1",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0"
