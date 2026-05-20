@@ -1,0 +1,58 @@
+# Local-dev docker-compose for Tcharts.
+# Brings up: Postgres 16, Redis 7, MailHog.
+#
+# Usage:
+#   docker compose -f infra/docker/docker-compose.local.yml up -d
+#
+# The apps (api, worker, web) run on the host via `pnpm dev`, NOT in containers.
+# This gives fastest HMR and matches the engineer workflow on a OneDrive volume.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: tcharts-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: tcharts
+      POSTGRES_PASSWORD: tcharts
+      POSTGRES_DB: tcharts_dev
+      # citext + pgcrypto are referenced in schema.prisma extensions
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "5432:5432"
+    volumes:
+      - tcharts_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tcharts -d tcharts_dev"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: tcharts-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - tcharts_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  mailhog:
+    image: mailhog/mailhog:v1.0.1
+    container_name: tcharts-mailhog
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # SMTP
+      - "8025:8025" # web UI
+
+volumes:
+  tcharts_pg_data:
+    driver: local
+  tcharts_redis_data:
+    driver: local
