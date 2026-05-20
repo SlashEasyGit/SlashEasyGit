@@ -1,0 +1,57 @@
+# Enforce LF line endings on every text file regardless of platform.
+# Windows + OneDrive + pnpm conspires to produce CRLF chaos otherwise.
+* text=auto eol=lf
+
+# Source files — explicit
+*.ts        text eol=lf
+*.tsx       text eol=lf
+*.js        text eol=lf
+*.jsx       text eol=lf
+*.mjs       text eol=lf
+*.cjs       text eol=lf
+*.json      text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.md        text eol=lf
+*.css       text eol=lf
+*.scss      text eol=lf
+*.html      text eol=lf
+*.sql       text eol=lf
+*.sh        text eol=lf
+*.prisma    text eol=lf
+*.toml      text eol=lf
+*.env.example text eol=lf
+.gitignore  text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+
+# Lockfiles — text but never autoformat
+pnpm-lock.yaml -diff merge=binary
+package-lock.json -diff merge=binary
+
+# Binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.webp      binary
+*.svg       text eol=lf
+*.woff      binary
+*.woff2     binary
+*.ttf       binary
+*.otf       binary
+*.eot       binary
+*.pdf       binary
+*.zip       binary
+*.gz        binary
+*.tar       binary
+
+# Generated files — show as collapsed in diffs
+packages/contracts/src/generated/**       linguist-generated=true
+packages/db/prisma/migrations/**/migration.sql linguist-generated=true
+**/.next/**                               linguist-generated=true
+
+# Diff drivers
+*.sql       diff=sql
+*.prisma    diff=prisma
