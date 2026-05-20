@@ -1,0 +1,9 @@
+extends:
+  - spectral:oas
+rules:
+  operation-operationId: error
+  operation-tag-defined: error
+  operation-description: error
+  oas3-server-trailing-slash: error
+  contact-properties: warn
+  info-license: off
