@@ -1,0 +1,81 @@
+// Tcharts Prisma schema.
+// Source of truth for the physical database. This file is small in Sprint 0;
+// it grows as modules ship.
+//
+// Conventions: see docs/DB_SCHEMA.md.
+// RLS DDL: see prisma/migrations/<n>__rls/rls.sql alongside each migration that
+// adds a tenant-scoped table.
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [pgcrypto, citext]
+}
+
+// =====================================================================
+// Reference data — permissions, roles
+// =====================================================================
+// These tables are seeded at install time. Read-only at runtime.
+
+model Role {
+  id          String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  key         String           @unique
+  name        String
+  scope       String           // 'account' | 'company'
+  createdAt   DateTime         @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime         @updatedAt @map("updated_at") @db.Timestamptz
+
+  rolePermissions RolePermission[]
+
+  @@map("role")
+}
+
+model Permission {
+  id          String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  key         String           @unique
+  module      String
+  task        String
+  description String?
+  createdAt   DateTime         @default(now()) @map("created_at") @db.Timestamptz
+
+  rolePermissions RolePermission[]
+
+  @@map("permission")
+}
+
+model RolePermission {
+  roleId       String     @map("role_id") @db.Uuid
+  permissionId String     @map("permission_id") @db.Uuid
+  granted      Boolean
+
+  role         Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission   Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+  @@map("role_permission")
+}
+
+// =====================================================================
+// Feature flags
+// =====================================================================
+
+model FeatureFlag {
+  id                String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  tchartsAccountId  String?  @map("tcharts_account_id") @db.Uuid       // null = global default
+  feature           String
+  enabled           Boolean
+  createdAt         DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt         DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@unique([tchartsAccountId, feature], map: "feature_flag_account_feature_uq")
+  @@map("feature_flag")
+}
+
+// =====================================================================
+// Sprint 1+ tables (auth, tenancy) will be added in their sprints.
+// =====================================================================
