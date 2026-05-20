@@ -1,0 +1,117 @@
+# =============================================================================
+# Tcharts .gitignore
+# =============================================================================
+
+# ---- dependencies ----
+node_modules/
+.pnpm-store/
+
+# ---- build outputs ----
+dist/
+build/
+out/
+.next/
+.turbo/
+.cache/
+*.tsbuildinfo
+
+# ---- env (NEVER commit real values) ----
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+# .env.example IS committed (template only)
+
+# ---- secrets / keys ----
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ---- logs ----
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# ---- test artefacts ----
+coverage/
+*.lcov
+.nyc_output/
+playwright-report/
+test-results/
+e2e-results/
+
+# ---- IDE / editor ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- OS / OneDrive ----
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ---- prisma ----
+# Generated client (regenerated on each install via postinstall)
+**/node_modules/.prisma/
+# Local SQLite if used for quick tests
+*.db
+*.db-journal
+
+# ---- next.js ----
+.next/
+next-env.d.ts
+.vercel/
+
+# ---- typescript ----
+*.tsbuildinfo
+.tsc-cache/
+
+# ---- temp / scratch ----
+tmp/
+.tmp/
+scratch/
+
+# ---- terraform ----
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+
+# ---- docker ----
+# Dockerfiles are committed; local override files are not
+docker-compose.override.yml
+docker-compose.local.override.yml
+
+# ---- spec PDFs ----
+# DOC1_Development_Plan.pdf and DOC2_QA_Test_Plan.pdf live here.
+# Uncomment to exclude from git if they have license concerns;
+# for now they are tracked as the canonical product spec.
+# *.pdf
+
+# ---- misc ----
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.npm/
+.yarn/
+
+# ---- generated contracts / clients ----
+# Generated TS client lives under packages/contracts/src/generated/
+# It IS committed so consumers don't need to run generation to type-check.
+# The generator script is run in CI and on `pnpm contracts:generate`.
+# !packages/contracts/src/generated/
