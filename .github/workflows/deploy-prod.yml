@@ -1,0 +1,22 @@
+name: Deploy to production
+
+# STUB — manual workflow_dispatch only. Real implementation requires AWS infra.
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "deploy" to confirm'
+        required: true
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirmation guard
+        if: ${{ inputs.confirm != 'deploy' }}
+        run: |
+          echo "Confirmation did not match 'deploy'. Aborting."
+          exit 1
+      - name: Stub
+        run: echo "Production deploy is a stub until infra/terraform is applied."
