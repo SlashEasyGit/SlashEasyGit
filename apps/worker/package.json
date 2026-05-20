@@ -1,0 +1,42 @@
+{
+  "name": "@tcharts/worker",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nest start --watch --preserveWatchOutput",
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@nestjs/bullmq": "^10.2.1",
+    "@nestjs/common": "^10.4.4",
+    "@nestjs/core": "^10.4.4",
+    "@nestjs/event-emitter": "^2.1.1",
+    "@prisma/client": "^5.22.0",
+    "@sentry/node": "^8.36.0",
+    "@tcharts/contracts": "workspace:*",
+    "@tcharts/db": "workspace:*",
+    "@tcharts/domain": "workspace:*",
+    "@tcharts/utils": "workspace:*",
+    "bullmq": "^5.21.2",
+    "dotenv-flow": "^4.1.0",
+    "ioredis": "^5.4.1",
+    "nestjs-pino": "^4.1.0",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.5",
+    "@tcharts/config": "workspace:*",
+    "@types/node": "^20.14.0",
+    "typescript": "^6.0.3",
+    "vitest": "^2.1.0"
+  }
+}

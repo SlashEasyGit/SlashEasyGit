@@ -1,0 +1,57 @@
+{
+  "name": "@tcharts/domain",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./money": {
+      "types": "./dist/money.d.ts",
+      "default": "./dist/money.js"
+    },
+    "./role": {
+      "types": "./dist/role.d.ts",
+      "default": "./dist/role.js"
+    },
+    "./permissions": {
+      "types": "./dist/permissions.d.ts",
+      "default": "./dist/permissions.js"
+    },
+    "./account-type": {
+      "types": "./dist/account-type.d.ts",
+      "default": "./dist/account-type.js"
+    },
+    "./period-state": {
+      "types": "./dist/period-state.d.ts",
+      "default": "./dist/period-state.js"
+    },
+    "./errors": {
+      "types": "./dist/errors.d.ts",
+      "default": "./dist/errors.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -p tsconfig.build.json --watch --preserveWatchOutput",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "clean": "rimraf dist tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "@tcharts/config": "workspace:*",
+    "@types/node": "^20.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^6.0.3",
+    "vitest": "^2.1.0"
+  }
+}

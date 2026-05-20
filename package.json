@@ -1,0 +1,49 @@
+{
+  "name": "tcharts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Tcharts — accrual-first multi-company SaaS accounting platform",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.10.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "test:e2e": "turbo test:e2e",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint -- --fix",
+    "typecheck": "turbo typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,yaml,yml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,yaml,yml}\"",
+    "clean": "turbo clean && rimraf node_modules .turbo",
+    "db:generate": "pnpm --filter @tcharts/db prisma:generate",
+    "db:migrate": "pnpm --filter @tcharts/db prisma:migrate",
+    "db:migrate:deploy": "pnpm --filter @tcharts/db prisma:migrate:deploy",
+    "db:seed": "pnpm --filter @tcharts/db seed",
+    "db:studio": "pnpm --filter @tcharts/db prisma:studio",
+    "contracts:generate": "pnpm --filter @tcharts/contracts generate",
+    "contracts:lint": "pnpm --filter @tcharts/contracts lint",
+    "prepare": "husky install || true"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "husky": "^9.1.0",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "turbo": "^2.3.0",
+    "typescript": "^6.0.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "prettier --write"
+    ],
+    "*.{json,md,yaml,yml}": [
+      "prettier --write"
+    ]
+  }
+}

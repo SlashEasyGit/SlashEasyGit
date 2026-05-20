@@ -1,0 +1,105 @@
+openapi: 3.1.0
+info:
+  title: Tcharts API
+  version: 0.0.0
+  description: |
+    Tcharts — accrual-first, multi-company, multi-user SaaS accounting platform.
+
+    This OpenAPI document is the **source of truth** for the HTTP API. The TypeScript
+    client (consumed by `apps/web`) and the request/response types (consumed by `apps/api`)
+    are generated from this file. Conventions: `docs/API_CONVENTIONS.md`.
+  contact:
+    name: SlashEasy
+    email: team@slasheasy.com
+servers:
+  - url: http://localhost:8080
+    description: Local
+  - url: https://api-staging.tcharts.app
+    description: Staging
+  - url: https://api.tcharts.app
+    description: Production
+tags:
+  - name: health
+    description: Health and readiness probes
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      summary: Liveness check
+      description: Always returns 200 as long as the process is alive.
+      tags: [health]
+      responses:
+        '200':
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+  /ready:
+    get:
+      operationId: getReady
+      summary: Readiness check
+      description: |
+        Returns 200 only when Postgres and Redis are reachable. Used by ECS to gate
+        task replacement.
+      tags: [health]
+      responses:
+        '200':
+          description: Ready
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReadyResponse'
+        '503':
+          description: Not ready
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReadyResponse'
+components:
+  schemas:
+    HealthResponse:
+      type: object
+      required: [status, buildSha, uptimeSeconds]
+      properties:
+        status:
+          type: string
+          enum: [ok, degraded]
+        buildSha:
+          type: string
+        uptimeSeconds:
+          type: number
+    ReadyResponse:
+      type: object
+      required: [status, checks]
+      properties:
+        status:
+          type: string
+          enum: [ready, not_ready]
+        checks:
+          type: object
+          required: [database, redis]
+          properties:
+            database:
+              type: boolean
+            redis:
+              type: boolean
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message, requestId]
+          properties:
+            code:
+              type: string
+              description: Stable machine-readable error code.
+            message:
+              type: string
+              description: User-facing English message.
+            details:
+              type: object
+              additionalProperties: true
+            requestId:
+              type: string
