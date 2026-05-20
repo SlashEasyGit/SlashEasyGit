@@ -1,92 +1,175 @@
-<div align="center">
+# Tcharts
 
-<!-- ✅ WORKING: Capsule Render Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=220&section=header&text=SlashEasy&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20MVP%20Studio&descAlignY=60&descAlign=50&descSize=24" width="100%"/>
+> Accrual-first, multi-company, multi-user SaaS accounting platform for mid-market businesses.
 
-<!-- ✅ WORKING: Typing SVG via readme-typing-svg (use herokuapp mirror which GitHub allows) -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=6C63FF&center=true&vCenter=true&width=700&lines=🚀+From+Idea+to+Live+Product+in+3+Weeks;⚡+AI-Powered+Development+Studio;🌍+Serving+Founders+Globally;💡+MVP+%7C+Web+%7C+Mobile+%7C+AI+Apps;🔥+80%2B+Products+Shipped+Across+5+Continents" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- Badges Row -->
-[![Website](https://img.shields.io/badge/🌐_Website-slasheasy.com-6C63FF?style=for-the-badge&logoColor=white)](https://slasheasy.com)
-[![Email](https://img.shields.io/badge/📧_Email-info@slasheasy.com-6C63FF?style=for-the-badge)](mailto:info@slasheasy.com)
-[![Upwork](https://img.shields.io/badge/Upwork-Top_Rated_Plus_⭐_5.0-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://slasheasy.com)
-[![Phone](https://img.shields.io/badge/📞_+91_9898707393-6C63FF?style=for-the-badge)](tel:+919898707393)
-
-</div>
+**Status:** Sprint 0 — Foundation. Architecture committed; scaffolding in progress.
 
 ---
 
-<!-- About Section -->
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+## What this is
 
-## 👋 Who We Are
+Tcharts replaces a fragmented small-business accounting stack (QuickBooks + spreadsheets + email + shared drives + chat) with a single integrated workspace where:
 
-**SlashEasy** is a battle-tested AI-Powered MVP Studio helping founders across **North America, Europe, the Middle East, Asia-Pacific, and India** go from blank Figma to live product in under **3 weeks**.
+- Bookkeeping is **accrual-native**, not cash-with-accrual-bolted-on.
+- Accounting operations (documents, tasks, chat, calendar, notes) live next to the books in the **Accounting Hub**.
+- A real **Period Control** engine — Soft Close and Hard Close — enforces month-end discipline.
+- **Multi-company is first-class**, not an upsell: one Tcharts Account → many companies → company-scoped users, COA, permissions, and data.
+- Per-user-per-company **permissions** are enforced at every API boundary.
 
-- 🚀 **80+ digital products** shipped across 5 continents
-- ⚡ **2–3 weeks** average delivery time (vs 3–6 months at big agencies)
-- 🏆 **Top Rated Plus** on Upwork — 100% Job Success Score
-- 💰 **$200K+** earned on Upwork · 5.0★ across all reviews
-- 🌍 Trusted by startups in **15+ industries**
-
-<br clear="right"/>
+For full product context, read the spec PDFs in the repo root: `DOC1_Development_Plan.pdf`, `DOC2_QA_Test_Plan.pdf`.
 
 ---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=3&section=header" width="100%"/>
-</div>
+## Where to start (engineers)
 
-## 🛠️ What We Build
+1. **[`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md)** — system architecture.
+2. **[`docs/REPO_STRUCTURE.md`](./docs/REPO_STRUCTURE.md)** — folder layout.
+3. **[`docs/MODULE_MAP.md`](./docs/MODULE_MAP.md)** — module inventory and dependencies.
+4. **[`docs/DB_SCHEMA.md`](./docs/DB_SCHEMA.md)** — data model.
+5. **[`docs/PERMISSION_MODEL.md`](./docs/PERMISSION_MODEL.md)** — RBAC + overrides.
+6. **[`docs/API_CONVENTIONS.md`](./docs/API_CONVENTIONS.md)** — REST/OpenAPI conventions.
+7. **[`docs/SECURITY.md`](./docs/SECURITY.md)** — security baseline & threat model.
+8. **[`docs/ENVIRONMENT.md`](./docs/ENVIRONMENT.md)** — env vars and secrets.
+9. **[`docs/SPRINT_0_CHECKLIST.md`](./docs/SPRINT_0_CHECKLIST.md)** — what ships in Sprint 0.
+10. **[`docs/adr/`](./docs/adr/)** — Architecture Decision Records (irrevocable history).
 
-<div align="center">
+Then the relevant module README under `apps/api/src/modules/<name>/`.
 
-| 🚀 MVP Development | 🌐 Web Development | 📱 Mobile Apps | 🔬 POC / Validation |
-|:---:|:---:|:---:|:---:|
-| Market-ready MVPs in 2–3 weeks. AI-powered, no corners cut. | SaaS dashboards, full-stack platforms built to scale. | High-performance iOS & Android. Clean code, day one. | Validate your riskiest assumptions before full budget. |
+---
 
-</div>
+## Tech stack
+
+- **Frontend:** Next.js 15 (App Router) + TypeScript + Tailwind + shadcn/ui + TanStack Query + Zustand + React Hook Form + Zod
+- **Backend:** NestJS (Fastify) + TypeScript + Prisma + PostgreSQL 16 + Redis + BullMQ + Socket.IO
+- **Infra:** AWS (ECS Fargate, RDS, ElastiCache, SES) + Cloudflare (DNS, WAF, R2) + Terraform + GitHub Actions
+- **Monorepo:** pnpm workspaces + Turborepo
+
+See `docs/ARCHITECTURE.md` §3 for the full stack table and the rationale per choice. ADR-0001 captures the Next.js choice (a deviation from the original spec's Vite recommendation, formally accepted).
 
 ---
 
-## ⚙️ Technology Stack
+## Quickstart (local dev)
 
-<div align="center">
+> **Windows + OneDrive users — read [`docs/runbooks/ONEDRIVE_SETUP.md`](./docs/runbooks/ONEDRIVE_SETUP.md) first**, before the first `pnpm install`.
 
-<!-- Animated Tech Badges -->
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Bubble](https://img.shields.io/badge/Bubble.io-1C1C1C?style=for-the-badge&logo=bubble&logoColor=white)
-![Webflow](https://img.shields.io/badge/Webflow-4353FF?style=for-the-badge&logo=webflow&logoColor=white)
-![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white)
+Prerequisites:
+- Node.js 20.x
+- pnpm 9.x (`npm install -g pnpm`)
+- Docker Desktop (for local Postgres + Redis + MailHog)
 
-</div>
+```bash
+# 1. Install deps
+pnpm install
 
----
-## 🏗️ Our 4-Phase Build Process
+# 2. Seed env file
+cp .env.example .env
 
-<div align="center">
+# 3. Bring up local services
+docker compose -f infra/docker/docker-compose.local.yml up -d
 
-```mermaid
-graph TD
-    A["🔍 Day 1–2\nTechnical Discovery"] --> B["🎨 Day 3–5\nUI/UX Design"]
-    B --> C["⚡ Day 6–17\nAI-Accelerated Build"]
-    C --> D["🚀 Day 18–21\nLaunch & Handover"]
-    style A fill:#6C63FF,color:#fff,stroke:#6C63FF
-    style B fill:#7C73FF,color:#fff,stroke:#7C73FF
-    style C fill:#8C83FF,color:#fff,stroke:#8C83FF
-    style D fill:#9C93FF,color:#fff,stroke:#9C93FF
+# 4. Apply migrations + seed
+pnpm db:migrate
+pnpm db:seed
+
+# 5. Generate API types from OpenAPI
+pnpm contracts:generate
+
+# 6. Run everything
+pnpm dev
 ```
+
+You should now have:
+- `apps/api` on http://localhost:8080 — `/health` returns 200.
+- `apps/web` on http://localhost:3000 — login page renders.
+- `apps/worker` running in the background.
+- MailHog UI on http://localhost:8025 (catches all outbound mail in dev).
+
+---
+
+## Repo layout (high level)
+
+```
+tcharts/
+├── apps/
+│   ├── web/          # Next.js 15
+│   ├── api/          # NestJS HTTP API
+│   └── worker/       # NestJS background jobs
+├── packages/
+│   ├── contracts/    # OpenAPI + Zod schemas
+│   ├── ui/           # Design tokens + shadcn components
+│   ├── db/           # Prisma schema + migrations
+│   ├── domain/       # Pure domain types (Money, Roles, ...)
+│   ├── utils/        # Framework-free helpers
+│   └── config/       # Shared ESLint, Prettier, TS configs
+├── infra/
+│   ├── docker/
+│   ├── terraform/
+│   └── github-actions/
+└── docs/
+    ├── adr/
+    └── runbooks/
+```
+
+Full details: [`docs/REPO_STRUCTURE.md`](./docs/REPO_STRUCTURE.md).
+
+---
+
+## Scripts
+
+| Command                | Action                                                  |
+|------------------------|---------------------------------------------------------|
+| `pnpm dev`             | Run all apps in watch mode                              |
+| `pnpm build`           | Production build of every app and package               |
+| `pnpm test`            | Unit + integration tests (Vitest)                       |
+| `pnpm test:e2e`        | End-to-end tests (Playwright)                           |
+| `pnpm lint`            | ESLint across the workspace                             |
+| `pnpm typecheck`       | `tsc --noEmit` across the workspace                     |
+| `pnpm format`          | Prettier write                                          |
+| `pnpm db:migrate`      | Apply Prisma migrations                                 |
+| `pnpm db:seed`         | Seed local DB with reference data + dev fixtures        |
+| `pnpm db:generate`     | Regenerate Prisma client                                |
+| `pnpm contracts:generate` | Regenerate TS API client from OpenAPI                |
+
+---
+
+## Sprint plan (high level)
+
+| Sprint | Theme                                                | Status     |
+|--------|------------------------------------------------------|------------|
+| S0     | Foundation — monorepo, infra, AppShell, CI           | In progress |
+| S1     | Authentication + Journey A signup                    | Pending    |
+| S2     | Companies, users, roles, switcher                    | Pending    |
+| S3     | Settings + permission engine                         | Pending    |
+| S4     | Cross-cutting backbone (Period Control, Journal, Audit, Idempotency, Approvals) | Pending |
+| S5     | Chart of Accounts                                    | Pending    |
+| S6     | Sales Tax                                            | Pending    |
+| S7-9   | Accounting Hub (Documents, Tasks, Calendar, Notes, Chat) | Pending |
+| S10    | Company Dashboard                                    | Pending    |
+| S11    | Revenue                                              | Pending    |
+| S12    | Expenses + Journey B completion                      | Pending    |
+| S13    | General Ledger + Reports                             | Pending    |
+| S14    | Banking + reconciliation                             | Pending    |
+| S15    | Notifications, audit viewer, performance pass        | Pending    |
+| S16    | Security hardening, UAT, launch                      | Pending    |
+
+Full plan: `DOC1_Development_Plan.pdf` §9.
+
+---
+
+## Contributing
+
+Internal repo. PRs must:
+
+- Reference the sprint + acceptance criteria they close.
+- Pass CI (lint, typecheck, unit, contract, build).
+- Stay under 400 lines of diff where reasonable (hard cap 1,000 unless generated).
+- Include test coverage for new code paths.
+- Update the relevant module README if the public surface changes.
+
+See `docs/SECURITY.md` §16 for the per-release hardening checklist.
+
+---
+
+## License
+
+Proprietary. © SlashEasy.

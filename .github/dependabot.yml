@@ -1,0 +1,31 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "08:00"
+      timezone: Etc/UTC
+    open-pull-requests-limit: 10
+    versioning-strategy: increase
+    groups:
+      nest:
+        patterns: ["@nestjs/*", "nestjs-*"]
+      next:
+        patterns: ["next", "@next/*", "eslint-config-next"]
+      tanstack:
+        patterns: ["@tanstack/*"]
+      prisma:
+        patterns: ["@prisma/*", "prisma"]
+      sentry:
+        patterns: ["@sentry/*"]
+      typescript:
+        patterns: ["typescript", "@typescript-eslint/*"]
+      eslint:
+        patterns: ["eslint", "eslint-*"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
