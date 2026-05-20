@@ -1,0 +1,19 @@
+name: Deploy to staging
+
+# STUB workflow (Sprint 0).
+# Real implementation lands when AWS infrastructure is applied (Phase 3 deferred).
+# This file exists so the pipeline contract is in place; pushes to main currently no-op.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip — AWS infrastructure not yet applied
+        run: |
+          echo "deploy-staging is a stub until infra/terraform is applied."
+          echo "Phase 3 deferred per Sprint 0 plan."

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": false,
+
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "incremental": true,
+    "composite": false,
+    "declaration": false,
+    "sourceMap": true,
+    "removeComments": false,
+
+    "baseUrl": ".",
+    "paths": {
+      "@tcharts/config/*": ["packages/config/*"],
+      "@tcharts/contracts": ["packages/contracts/src/index.ts"],
+      "@tcharts/contracts/*": ["packages/contracts/src/*"],
+      "@tcharts/db": ["packages/db/src/index.ts"],
+      "@tcharts/db/*": ["packages/db/src/*"],
+      "@tcharts/domain": ["packages/domain/src/index.ts"],
+      "@tcharts/domain/*": ["packages/domain/src/*"],
+      "@tcharts/ui": ["packages/ui/src/index.ts"],
+      "@tcharts/ui/*": ["packages/ui/src/*"],
+      "@tcharts/utils": ["packages/utils/src/index.ts"],
+      "@tcharts/utils/*": ["packages/utils/src/*"]
+    }
+  },
+  "exclude": ["**/node_modules", "**/dist", "**/.next", "**/.turbo", "**/coverage"]
+}
